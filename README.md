@@ -1,47 +1,56 @@
-Sobre
+Custom Linktree
+Este é um projeto simples de HTML e CSS que implementa um Linktree personalizado, fornecendo uma maneira elegante de compartilhar vários links importantes em um único lugar. O Linktree contém cinco botões, sendo dois principais ("Download CV" e "Portfólio") e três secundários ("Instagram", "Git" e "WhatsApp").
 
-Este repositório contém o código do meu linktree personalizado, feito com HTML e CSS. O linktree é uma plataforma que permite criar uma página única com links para diferentes sites e redes sociais.
-
-Botões
-
-O linktree possui cinco botões:
-
-Download CV: Botão para baixar o meu currículo.
-Portfólio: Botão para acessar o meu portfólio online.
-Instagram: Botão para acessar o meu perfil no Instagram.
-Github: Botão para acessar a minha página no GitHub.
-WhatsApp: Botão para iniciar uma conversa comigo no WhatsApp.
-Instalação
-
-Para instalar o linktree, siga estas etapas:
-
+Estrutura do Projeto
+index.html: O arquivo HTML contém a estrutura básica da página, incluindo os links dos botões.
+style.css: O arquivo CSS é responsável pela aparência e layout do Linktree.
+Botões Principais
+1. Download CV
+Fornece um link para download do currículo.
+2. Portfólio
+Direciona os usuários para o portfólio online.
+Botões Secundários
+3. Instagram
+Redireciona para o perfil do Instagram.
+4. Git
+Leva os usuários para o perfil no GitHub.
+5. WhatsApp
+Abre uma conversa no WhatsApp quando clicado.
+Como Usar
 Clone o repositório:
-git clone https://github.com/[seu-usuário]/[nome-do-repositório]
-Acesse o diretório do repositório:
-cd [nome-do-repositório]
-Instale as dependências:
-npm install
-Inicie o servidor:
-npm start
-O linktree estará disponível no endereço http://localhost:3000.
 
-Personalização
+bash
+Copy code
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+Navegue até o diretório do projeto:
 
-O linktree é altamente personalizável. Você pode alterar o estilo dos botões, a cor do fundo e outros elementos da página. Para mais informações, consulte a documentação do Linktree.
+bash
+Copy code
+cd nome-do-repositorio
+Abra o arquivo index.html em seu navegador preferido:
 
-Exemplo
+bash
+Copy code
+open index.html
+Ou simplesmente abra o arquivo index.html no seu navegador.
 
-Aqui está um exemplo de como personalizar o linktree:
+Personalize os links:
 
-HTML
-<link rel="stylesheet" href="style.css">
+Edite o arquivo index.html e atualize os links dos botões conforme necessário.
+Personalize o estilo (opcional):
 
-<div class="container">
-  <a href="https://example.com/cv" class="button">Download CV</a>
-  <a href="https://example.com/portfolio" class="button">Portfólio</a>
-  <a href="https://www.instagram.com/[seu-usuário]" class="button">Instagram</a>
-  <a href="https://github.com/[seu-usuário]" class="button">Github</a>
-  <a href="https://wa.me/[seu-número]" class="button">WhatsApp</a>
-</div>
-Use o código com cuidado. Saiba mais
-Este código altera o estilo dos botões para usar uma cor azul. Também adiciona um texto ao lado de cada botão.
+Se desejar fazer ajustes na aparência, você pode editar o arquivo style.css.
+Hospede em um servidor (opcional):
+
+Se quiser compartilhar o Linktree online, hospede os arquivos em um serviço de hospedagem estática como GitHub Pages, Netlify ou Vercel.
+
+Contribuições
+Contribuições são bem-vindas! Se você encontrar bugs ou tiver sugestões para melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+Licença
+Este projeto é distribuído sob a licença MIT. Sinta-se à vontade para utilizar, modificar e distribuir conforme necessário.
+
+
+
+
+
